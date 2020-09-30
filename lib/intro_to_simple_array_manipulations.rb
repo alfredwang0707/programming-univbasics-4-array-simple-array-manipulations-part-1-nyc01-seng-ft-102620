@@ -31,7 +31,7 @@ def using_shift(my_favorite_cities)
   end
   
 
-describe "shift_with_args" do 
+def shift_with_args 
   before(:each) do 
     @ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
     @brands_removed = shift_with_args(@ice_cream_brands)
