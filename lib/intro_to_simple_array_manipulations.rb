@@ -12,16 +12,13 @@ end
   
   
   def using_pop(continents)
-    continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
-  continents.pop
+    continents.pop
   end
 
 
 
 def pop_with_args(dog_breeds)
- 
-    dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
-    pop_with_args = dog_breeds.pop(2)
+ pop_with_args = dog_breeds.pop(2)
 end
 
 def using_shift(my_favorite_cities) 
