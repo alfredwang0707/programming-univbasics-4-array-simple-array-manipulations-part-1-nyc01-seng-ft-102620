@@ -31,10 +31,9 @@ def using_shift(my_favorite_cities)
   end
   
 
-def shift_with_args 
-  before(:each) do 
-    @ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
-    @brands_removed = shift_with_args(@ice_cream_brands)
+def shift_with_args(ice_cream_brands)
+ ice_cream_brands = ["Blue Bell Creameries", "Ben & Jerry's", "Baskin Robbins", "Braum's", "Breyer's"]
+    
   end
   
   it "takes in an argument of an array and uses the shift method with an argument of 2 to remove and return the first 2 items from the array" do 
